@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <title>Document</title>
+    <style>
+      .test {
+        height: 100vh;
+        background-color: aqua;
+      }
+      .ani {
+        width: 40vw;
+        height: 30vh;
+        line-height: 30vh;
+        margin: 20px auto;
+        background-color: black;
+        color: #fff;
+        font-size: 60px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    ANCHOR PLACEMENT
+    <div class="test"></div>
+
+    <div class="ani" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+      ANCHOR PLACEMENT11111
+    </div>
+    <div
+      class="ani"
+      data-aos="fade-up"
+      data-aos-anchor-placement="center-bottom"
+    >
+      ANCHOR PLACEMENT33333
+    </div>
+    <div>
+      <div
+        class="ani"
+        data-aos="fade-up"
+        data-aos-anchor-placement="bottom-bottom"
+      >
+        ANCHOR PLACEMENT5555
+      </div>
+    </div>
+
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
